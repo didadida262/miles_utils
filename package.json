@@ -1,0 +1,15 @@
+{
+  "name": "miles_common_weapons",
+  "version": "1.0.0",
+  "description": "common_weapons",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didadida262/miles_utils"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "佚心",
+  "license": "ISC"
+}
