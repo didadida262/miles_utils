@@ -1,3 +1,10 @@
+/*
+ * @Description: 通用函数库
+ * @Author: didadida262
+ * @Date: 2024-04-22 16:27:00
+ * @LastEditors: didadida262
+ * @LastEditTime: 2024-04-23 13:43:42
+ */
 export const getRandomColor = () => {
     // rgba(x,y,z,透明度)
     const r = Math.floor(Math.random() * 256)
@@ -44,26 +51,3 @@ export const getRandomColor = () => {
     * @param {*} end
     * @return {*} 返回结果数组
     */
-  // export const getAllChar = (type, start, end) => {
-  //   const targetObj = {
-  //     // 大小写字母：65--90，97-122
-  //     small: [97, 122],
-  //     big: [65, 90],
-  //     // 数字：48--57
-  //     num: [48, 57],
-  //     any: [start, end]
-  //   }
-  //   const range = targetObj[type]
-  //   const res = []
-  //   let point = range[1]
-  //   while (point >= range[0]) {
-  //     res.unshift(String.fromCharCode(point))
-  //     if (point % 70 === 0) {
-  //       res.unshift('\n')
-  //     }
-  //     // charCodeAt
-  //     point--
-  //   }
-  //   return res
-  // }
-  
